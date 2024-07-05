@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <title>Organized Software List</title>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ <style>
+  body {
+   padding: 20px;
+  }
+
+  .search-bar {
+   margin-bottom: 20px;
+  }
+
+  .search-bar input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 4px;
+  }
+
+  .table-container {
+   margin-bottom: 40px;
+  }
+
+  table {
+   width: 100%;
+   border-collapse: collapse;
+  }
+
+  table,
+  th,
+  td {
+   border: 1px solid #ddd;
+  }
+
+  th,
+  td {
+   padding: 8px;
+   text-align: left;
+  }
+
+  th {
+   background-color: #f2f2f2;
+  }
+
+  td {
+   vertical-align: top;
+  }
+
+  .not-found {
+   text-align: center;
+   color: red;
+   font-weight: bold;
+  }
+
+  .highlight {
+   background-color: yellow;
+  }
+ </style>
+</head>
+
+<body>
+ <div class="container">
+  <header class="text-center">
+   <h1>Department Of Social Protection</h1>
+  </header>
+
+  <div class="search-bar">
+   <input type="text" id="searchInput" class="form-control" placeholder="Search software...">
+  </div>
+
+  <section>
+   <div class="table-container">
+    <h3>Software List</h3>
+    <table class="table">
+     <thead>
+      <tr>
+       <th>Software list</th>
+      </tr>
+     </thead>
+     <tbody id="softwareTableBody">
+      <tr>
+	<td>.NET Core SDK 1.1.14 (x64)</td>
+	<td>.NET Core SDK 1.1.14 (x86)</td>
+	<td>.NET Core SDK 1.1.8 (x64)</td>
+	<td>Accessibility Insights For Windows</td>
+	<td>Altova StyleVision 2005 Enterprise Edition</td>
+	<td>Anaconda3 2020.11 (Python 3.8.5 64-bit)</td>
+	<td>Anaconda3 2021.11 (Python 3.9.7 64-bit)</td>
+	<td>Anaconda3 2022.05 (Python 3.9.12 64-bit)</td>
+	<td>Application Insights Tools for Visual Studio 2015</td>
+	<td>Azure AD Connect Health AD FS Agent</td>
+	<td>Azure Data Studio</td>
+	<td>Azure DevOps Integration Tool for Office 2019</td>
+	<td>Azure DevOps Server 2019 Update 1</td>
+	<td>Azure DevOps Server 2020.0.1</td>
+	<td>Azure DevOps Server 2022.0.1</td>
+      </tr>
+      <tr>
+	<td>Docker Desktop</td>
+	<td>Git version</td>
+	<td>Git version 2.23.0.windows.1</td>
+	<td>IIS 10.0 Express</td>
+	<td>IIS 6.0 Resource Kit Tools</td>
+	<td>IIS 8.0 Express</td>
+	<td>IIS URL Rewrite Module 2</td>
+	<td>iisnode for iis 7.x (x64) full</td>
+	<td>Java(TM) 6 Update 26</td>
+	<td>JetBrains dotPeek</td>
+        <td>Microsoft .NET 5.0.10 - Windows Server Hosting</td>
+	<td>Microsoft .NET 5.0.11 - Windows Server Hosting</td>
+	<td>Microsoft .NET 5.0.12 - Windows Server Hosting</td>
+	<td>Microsoft .NET 5.0.13 - Windows Server Hosting</td>
+	<td>Microsoft .NET 5.0.6 - Windows Server Hosting</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET 6.0.10 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.13 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.14 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.15 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.16 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.18 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.2 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.21 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.4 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.8 - Windows Server Hosting</td>
+	<td>Microsoft .NET 6.0.9 - Windows Server Hosting</td>
+	<td>Microsoft .NET 7.0.2 - Windows Server Hosting</td>
+	<td>Microsoft .NET 7.0.3 - Windows Server Hosting</td>
+	<td>Microsoft .NET 7.0.4 - Windows Server Hosting</td>
+	<td>Microsoft .NET Compact Framework 2.0 SP2</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core 1.0.1 - SDK 1.0.0 Preview 2-003131 (x64)</td>
+	<td>Microsoft .NET Core 1.0.1 - VS 2015 Tooling Preview 2</td>
+	<td>Microsoft .NET Core 2.0.7 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.1.3 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.1.5 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.1.6 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.2.0 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.2.7 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 2.2.8 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.0.1 - Windows Server Hosting</td>	
+	<td>Microsoft .NET Core 3.1.14 - Windows Server Hosting</td>		
+	<td>Microsoft .NET Core 3.1.18 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.22 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.30 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.31 - Windows Server Hosting</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core Runtime - 2.0.4 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.0.7 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.0.7 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.0 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.3 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.3 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.30 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.5 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.5 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.6 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.1.6 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.2.0 (x64)</td>
+	<td>Microsoft .NET Core 3.1.4 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.5 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.6 - Windows Server Hosting</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core Runtime - 2.2.0 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.2.7 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.2.7 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 2.2.8 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 2.2.8 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.0.1 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.0.1 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.10 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.14 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.14 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.18 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.18 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.21 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.22 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.22 (x86)</td>
+      <tr>
+      </tr>
+	<td>Microsoft .NET Core Runtime - 3.1.30 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.30 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.31 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.31 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.32 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.4 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.4 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.5 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.5 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.6 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.6 (x86)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.7 (x64)</td>
+	<td>Microsoft .NET Core Runtime - 3.1.7 (x86)</td>
+	<td>Debugging Tools for Windows (x64)</td>
+        <td>Microsoft .NET 6.0.1 - Windows Server Hosting</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Compact Framework 1.0 SP3 Developer</td>
+	<td>Microsoft .NET Core 3.1.31 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core 3.1.7 - Windows Server Hosting</td>
+	<td>Microsoft .NET Core Runtime - 3.1.26 (x64)</td>
+	<td>Microsoft .NET 6.0.1 - Windows Server Hosting</td>
+	<td>Microsoft .NET Compact Framework 1.0 SP3 Developer</td>
+	<td>Microsoft .NET Compact Framework</td>
+	<td>Microsoft .NET Core SDK - 2.0.0 (x64)</td>
+	<td>Microsoft .NET Core SDK - 2.1.104 (x64)</td>
+	<td>Microsoft .NET Core SDK - 2.1.202 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.300 - Preview (x64)</td>
+	<td>Microsoft .NET Core SDK - 2.1.302 (x64)</td>
+	<td>Microsoft .NET Core SDK - 2.1.402 (x64)</td>
+	<td>Microsoft .NET Core SDK - 2.1.502 (x86)</td>
+	<td>Microsoft .NET Core SDK - 2.1.503 (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core SDK 2.1.508 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.509 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.511 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.515 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.519 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.520 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.521 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.522 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.524 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.525 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.516 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.607 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.801 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.805 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.1.817 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core SDK 2.1.818 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.2.109 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.2.110 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.2.110 (x86)</td>
+	<td>Microsoft .NET Core SDK 2.2.207 (x64)</td>
+	<td>Microsoft .NET Core SDK 2.2.402 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.0.103 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.101 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.101 (x64) from Visual Studio</td>
+	<td>Microsoft .NET Core SDK 3.1.200 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.302 (x64) from Visual Studio</td>
+	<td>Microsoft .NET Core SDK 3.1.401 (x64) from Visual Studio</td>
+	<td>Microsoft .NET Core SDK 3.1.402 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.403 (x64) from Visual Studio</td>
+	<td>Microsoft .NET Core SDK 3.1.408 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Core SDK 3.1.409 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.415 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.416 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.416 (x86)</td>
+	<td>Microsoft .NET Core SDK 3.1.418 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.419 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.419 (x86)</td>
+	<td>Microsoft .NET Core SDK 3.1.420 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.422 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.425 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.426 (x64)</td>
+	<td>Microsoft .NET Core SDK 3.1.426 (x86)</td>
+	<td>Microsoft .NET Core SDK Uninstall Tool (x86)</td>
+	<td>Microsoft .NET Framework</td>
+	<td>Microsoft .NET Framework</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Framework 4 Multi-Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.5 Multi-Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.5 SDK</td>
+	<td>Microsoft .NET Framework 4.5.1 Multi-Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.5.1 Multi-Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.5.1 SDK</td>
+	<td>Microsoft .NET Framework 4.5.2 Multi-Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.5.2 Multi-Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.6 SDK</td>
+	<td>Microsoft .NET Framework 4.6 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.6 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.6.1 SDK</td>
+	<td>Microsoft .NET Framework 4.6.1 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.6.1 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.6.2 SDK</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Framework 4.6.2 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.6.2 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.7 SDK</td>
+	<td>Microsoft .NET Framework 4.7 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.7 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.7.1 SDK</td>
+	<td>Microsoft .NET Framework 4.7.1 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.7.1 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.7.2 SDK</td>
+	<td>Microsoft .NET Framework 4.7.2 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.7.2 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Framework 4.8 SDK</td>
+	<td>Microsoft .NET Framework 4.8.1 SDK</td>
+	<td>Microsoft .NET Framework 4.8 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.8 Targeting Pack (ENU)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Framework 4.8.1 Targeting Pack</td>
+	<td>Microsoft .NET Framework 4.8.1 Targeting Pack (ENU)</td>
+	<td>Microsoft .NET Runtime - 5.0.10 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.10 (x86)</td>
+	<td>Microsoft .NET Runtime - 5.0.11 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.11 (x86)</td>
+	<td>Microsoft .NET Runtime - 5.0.12 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.12 (x86)</td>
+	<td>Microsoft .NET Runtime - 5.0.13 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.13 (x86)</td>
+	<td>Microsoft .NET Runtime - 5.0.14 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.17 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.6 (x64)</td>
+	<td>Microsoft .NET Runtime - 5.0.6 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.1 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Runtime - 6.0.1 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.10 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.10 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.13 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.13 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.14 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.14 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.15 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.15 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.16 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.16 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.18 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.18 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.2 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.2 (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Runtime - 6.0.21 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.21 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.4 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.4 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.5 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.6 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.7 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.8 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.8 (x86)</td>
+	<td>Microsoft .NET Runtime - 6.0.9 (x64)</td>
+	<td>Microsoft .NET Runtime - 6.0.9 (x86)</td>
+	<td>Microsoft .NET Runtime - 7.0.2 (x64)</td>
+	<td>Microsoft .NET Runtime - 7.0.2 (x86)</td>
+	<td>Microsoft .NET Runtime - 7.0.3 (x64)</td>
+	<td>Microsoft .NET Runtime - 7.0.3 (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET Runtime - 7.0.4 (x64)</td>
+	<td>Microsoft .NET Runtime - 7.0.4 (x86)</td>
+	<td>Microsoft .NET Runtime - 7.0.8 (x86)</td>
+	<td>Microsoft .NET SDK 5.0.100 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.102 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.103 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.104 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.200 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.201 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.201 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.202 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.202 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.203 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.203 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.211 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 5.0.300 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.301 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.301 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.302 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.303 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.400 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.400 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.401 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.402 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.403 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.403 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.404 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.404 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.405 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.406 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 5.0.406 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.407 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.407 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.408 (x64)</td>
+	<td>Microsoft .NET SDK 5.0.408 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.409 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.410 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.411 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.412 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.413 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.414 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.415 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 5.0.416 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.100 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.100 (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 6.0.101 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.101 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.102 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.102 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.200 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.201 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.201 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.202 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.300 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.300 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.301 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.301 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.301 (x86)</td>
+	<td>Microsoft .NET SDK 6.0.302 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.302 (x64) from Visual Studio</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 6.0.303 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.308 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.309 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.310 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.311 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.311 (x86)</td>
+	<td>Microsoft .NET SDK 6.0.315 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.400 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.400 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.401 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.401 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.402 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.402 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 6.0.403 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.403 (x64) from Visual Studio</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 6.0.404 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.405 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.407 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.407 (x86)</td>
+	<td>Microsoft .NET SDK 6.0.408 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.410 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.412 (x64)</td>
+	<td>Microsoft .NET SDK 6.0.413 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.100 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.100 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.100 (x86)</td>
+	<td>Microsoft .NET SDK 7.0.101 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.101 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.102 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.102 (x64) from Visual Studio</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 7.0.200 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.201 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.202 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.202 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.202 (x86)</td>
+	<td>Microsoft .NET SDK 7.0.203 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.203 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.302 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.304 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.304 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.305 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.306 (x64)</td>
+	<td>Microsoft .NET SDK 7.0.306 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.307 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 7.0.400 (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft .NET SDK 7.0.400 (x64) from Visual Studio</td>
+	<td>Microsoft .NET SDK 8.0.100-preview.3.23178.7 (x64)</td>
+	<td>Microsoft .NET SDK 8.0.100-preview.5.23303.2 (x64)</td>
+	<td>Microsoft .NET Version Manager (x64) 1.0.0-beta5</td>
+	<td>Microsoft .NET Version Manager (x64) 1.0.0-rc1</td>
+	<td>Microsoft ASP.NET Core 2.1.27 - Shared Framework</td>
+	<td>Microsoft ASP.NET Core 2.1.30 - Shared Framework</td>
+	<td>Microsoft ASP.NET Core 2.1.6 - Shared Framework</td>
+	<td>Microsoft ASP.NET Core 2.2.7 - Shared Framework</td>
+	<td>Microsoft ASP.NET Core 3.1.14 - Shared Framework</td>
+	<td>Microsoft ASP.NET Core 3.1.22 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 3.1.22 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 3.1.25 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 3.1.28 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 3.1.30 - Shared Framework (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft ASP.NET Core 3.1.30 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 3.1.31 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 3.1.31 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 3.1.32 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 3.1.32 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 5.0.11 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 5.0.11 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 5.0.12 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 5.0.12 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.1 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.1 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.10 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.10 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.13 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.13 - Shared Framework (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft ASP.NET Core 6.0.14 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.15 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.15 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.16 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.16 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.18 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.18 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.2 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.2 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.21 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.21 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.4 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.4 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 6.0.8 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.8 - Shared Framework (x86)</td>
+      </tr>
+      <tr>
+	<td>Microsoft ASP.NET Core 6.0.9 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 6.0.9 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 7.0.2 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 7.0.2 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 7.0.3 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 7.0.3 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 7.0.4 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 7.0.4 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET Core 7.0.7 - Shared Framework (x64)</td>
+	<td>Microsoft ASP.NET Core 7.0.8 - Shared Framework (x86)</td>
+	<td>Microsoft ASP.NET MVC</td>
+	<td>Microsoft ASP.NET MVC 2</td>
+	<td>Microsoft ASP.NET MVC 2 - Visual Studio 2010 Tools</td>
+	<td>Microsoft ASP.NET MVC 3</td>
+	<td>Microsoft ASP.NET MVC 3 - Visual Studio 2010 Tools</td>
+      </tr>
+      <tr>
+	<td>Microsoft ASP.NET MVC 4</td>
+	<td>Microsoft ASP.NET MVC 4 Runtime</td>
+	<td>Microsoft ASP.Net Web Frameworks 5.0 Security Update (KB2992080)</td>
+	<td>Microsoft ASP.Net Web Frameworks 5.1 Security Update (KB2994397)</td>
+	<td>Microsoft ASP.NET Web Frameworks and Tools VS2015 (KB4339279)</td>
+	<td>Microsoft ASP.NET Web Pages</td>
+	<td>Microsoft ASP.NET Web Pages - Visual Studio 2010 Tools</td>
+	<td>Microsoft ASP.NET Web Pages 2</td>
+	<td>Microsoft Azure PowerShell - April 2018</td>
+	<td>Microsoft Build Tools 2013</td>
+	<td>Microsoft Build Tools 2015</td>
+	<td>Microsoft Build Tools 2015 Update 3</td>
+	<td>Microsoft MSDN 2005 Express Edition - ENU</td>
+	<td>Microsoft Office 2003 Web Components</td>
+	<td>Microsoft Silverlight</td>
+      </tr>
+      <tr>
+	<td>Microsoft Sync Framework Runtime v1.0 SP1 (x64)</td>
+	<td>Microsoft Sync Framework Services v1.0 SP1 (x64)</td>
+	<td>Microsoft Visual C++ 2005 Redistributable</td>
+	<td>Microsoft Visual C++ 2005 Redistributable (x64)</td>
+	<td>Microsoft Visual C++ 2008 Redistributable - x86</td>
+	<td>Microsoft Visual C++ 2010 x86 Redistributable</td>
+	<td>Microsoft Visual C++ 2012 Redistributable (x64)</td>
+	<td>Microsoft Visual C++ 2012 Redistributable (x86)</td>
+	<td>Microsoft Visual C++ 2013 Redistributable (x64)</td>
+	<td>Microsoft Visual C++ 2013 Redistributable (x86)</td>
+	<td>Microsoft Visual C++ 2015-2019 Redistributable (x64)</td>
+	<td>Microsoft Visual C++ 2015-2019 Redistributable (x86)</td>
+	<td>Microsoft Visual C++ 2015-2022 Redistributable (x64)</td>
+	<td>Microsoft Visual C++ 2015-2022 Redistributable (x86)</td>
+	<td>Microsoft Visual J# 2.0 Redistributable Package - SE (x64)</td>
+      </tr>
+      <tr>
+	<td>Microsoft Visual Studio 2010 Tools for Office Runtime (x64)</td>
+	<td>Microsoft Visual Studio Code</td>
+	<td>Microsoft.SharePoint.2019.ManagementPacks</td>
+	<td>Node.js</td>
+	<td>UniversalForwarder</td>
+	<td>Visual C++ 9.0 SP1+KB971092 Runtime DLLs (x64/release)</td>
+	<td>Visual Studio Enterprise 2019</td>
+      </tr>
+      <tr>
+
+     </tbody>
+    </table>
+    <div id="notFoundMessage" class="not-found" style="display: none;">
+     No matching software found.
+    </div>
+   </div>
+  </section>
+ </div>
+
+<script>
+    $(document).ready(function () {
+      $("#searchInput").on("keyup", function () {
+        var value = $(this).val().toLowerCase();
+        var found = false;
+         
+        $("#softwareTableBody td").each(function () {
+          var cell = $(this);
+          if (cell.text().toLowerCase().indexOf(value) > -1) {
+            cell.show(); // Show only the matching cell
+            found = true;
+          } else {
+            cell.hide();
+          }
+        });
+         
+        if (!found) {
+          $("#notFoundMessage").show(); 
+        } else {
+          $("#notFoundMessage").hide();
+        }
+      });
+    });
+</script>
+</body>
+
+</html>
